@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+@media (min-width: 400px) {
+
+    .box {
+        width: 350px;
+        background-color: rgb(107, 107, 107);
+        height: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 7px;
+        border: 2px solid black;
+    }
+
+    /* DISCORD */
+    .box#discord {
+        margin-top: 50px;
+    }
+
+    .box#discord > a#discordapp > img {
+        position: relative;
+        width: 170px;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 20px;
+    }
+    .box#discord > .content {
+        font-family: "Roboto";
+        font-weight: 900;
+        letter-spacing: 1px;
+        font-size: 1.75rem;
+        color: #283F8C;
+        text-align: center;
+    }
+    .box#discord > img {
+        position: relative;
+        width: 170px;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 120px;
+    }
+    .box#discord #join-server-element {
+        position: relative;
+        width: 50%;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 75px;
+    }
+    .box#discord button {
+        width: 100%;
+        font-family: "Roboto";
+        font-weight: 700;
+        font-size: 1.2rem;
+        text-align: center;
+        background-color: #4D71B7;
+        height: 40px;
+        border-radius: 5px;
+        border: 2px solid black;
+    }
+    /* HOVER */
+    .box#discord:hover {
+        background-color: #757575;
+    }
+    .box#discord button:hover {
+        background-color: #39589D;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 400px) {
+
+    
+}
